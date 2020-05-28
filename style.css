@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+h1{
+    margin-left: 25%;
+}
+.task{
+    padding: 1%;
+    border: 2px solid rgb(95, 14, 170);
+    margin: 1%;
+}
+span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.otvet{
+    font-size: 1em;
+}
+
+.form > input {
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 8px rgb(122, 39, 190);
+    font-size: 1em;;
+    color: rgb(17, 23, 56);
+}
+
+.form > input {
+    margin-bottom: 16px;
+}
+
+.form > input {
+    width: 90%;
+}
+
+.form>.button{
+    display: flex;
+}
+
+.form > input, .button_1>button {
+    margin-right: 8px;
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid rgb(122, 39, 190);
+    font-size: 1em;;
+    color: rgb(17, 23, 56);
+}
